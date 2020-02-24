@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "env": {
+    "SENTRY_DSN": "@timber_sentry_dsn",
+    "UNSPLASH_ACCESS_KEY": "@timber_unsplash_access_key",
+    "UNSPLASH_SECRET_KEY": "@timber_unsplash_secret_key"
+  },
+  "build": {
+    "env": {
+      "SENTRY_DSN": "@timber_sentry_dsn",
+      "UNSPLASH_ACCESS_KEY": "@timber_unsplash_access_key",
+      "UNSPLASH_SECRET_KEY": "@timber_unsplash_secret_key"
+    }
+  }
+}
